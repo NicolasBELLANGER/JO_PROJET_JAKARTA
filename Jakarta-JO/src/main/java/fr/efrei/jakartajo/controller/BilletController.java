@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/billets")
+@RequestMapping("/api/billets")
 public class BilletController {
 
 	private final BilletService service;

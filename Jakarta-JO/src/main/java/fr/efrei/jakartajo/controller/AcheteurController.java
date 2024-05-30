@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/acheteurs")
+@RequestMapping("/api/acheteurs")
 public class AcheteurController {
 
 	private final AcheteurService service;
